@@ -6,6 +6,11 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: rgb(var(--bs-tertiary-color-rgb));
+  /* background-color: rgb(243, 205, 148); */
+  background-image: url("assets/images/bg-sky.jpg"); /* Use url() without quotes */
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
 }
 
 
@@ -79,4 +84,7 @@ body {
   .featurette-heading {
     margin-top: 7rem;
   }
+}
+.row1{
+  background-color: beige;
 }
